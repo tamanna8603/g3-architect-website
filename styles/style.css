@@ -2,3 +2,48 @@
   font-family: 'Lato', sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+  border-radius: 5px;
+  background: #FF900E;
+  border: none;
+  padding: 10px;
+}
+nav{
+  background: rgba(255, 144, 14, 0.10);
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title{
+  color: #131313;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+ul{
+  display: flex;
+}
+nav li{
+  margin-right: 25px;
+  list-style: none;
+  font-size: 1em;
+  font-weight: 500;
+}
+nav li a{
+  text-decoration: none;
+  color:  #424242;
+}
+/*banner styles*/
+.banner-content{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title{
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description{
+  color: #727272;
+}
