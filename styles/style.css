@@ -166,7 +166,6 @@ footer p{
   background: #FFF4E7;
   width: 1400px;
   padding-top: 50px;
-  padding-left: 5px;
   margin-left: 40px;
 
 }
@@ -205,8 +204,6 @@ footer p{
     padding: 0;
   }
  
-  
- 
 }
 
 /*tablet or medium devices */
@@ -221,7 +218,6 @@ footer p{
   } 
   footer{
     font-size: 14px;
-    margin: 0;
-    padding: 0;
+    text-align: center;
   }
 }
