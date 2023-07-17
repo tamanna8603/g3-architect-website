@@ -157,6 +157,19 @@ h2{
 .sponsor-image img{
   width: 165px;
 }
+footer{
+  color: #424242;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  background: #FFF4E7;
+  width: 1250px;
+  height: 80px;
+  padding-top: 30px;
+  margin-left: 35px;
+
+}
 
 
 
@@ -187,6 +200,13 @@ h2{
   .features-image img{
     width: 100%;
   }
+  footer{
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+ 
   
  
 }
@@ -201,4 +221,7 @@ h2{
   .sponsor-image{
     flex-direction: column;
   } 
+  footer{
+    font-size: 14px;
+  }
 }
