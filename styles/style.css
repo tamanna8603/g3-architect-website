@@ -19,6 +19,7 @@
   color: #131313;
   font-size: 2.6rem;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 /*header styles*/
 nav{
@@ -142,6 +143,20 @@ h2{
   font-weight: 600;
   margin-top: 5px;
 }
+.sponsors-container{
+  text-align: center;
+  margin-top: 80px;
+}
+.sponsor-image{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.sponsor-image img{
+  width: 165px;
+}
 
 
 
@@ -156,7 +171,8 @@ h2{
   nav,
   .team-container,
   .features-container,
-  .facts-card-container{
+  .facts-card-container,
+  .sponsor-image{
     flex-direction: column;
   } 
   .facts-card-container{
@@ -171,6 +187,7 @@ h2{
   .features-image img{
     width: 100%;
   }
+  
  
 }
 
@@ -180,8 +197,8 @@ h2{
     padding: 50px;
   }
   nav,
-  .team-container{
+  .team-container,
+  .sponsor-image{
     flex-direction: column;
-  }
-  
+  } 
 }
